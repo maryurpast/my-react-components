@@ -1,0 +1,90 @@
+.banner {
+  width: 90%;
+  display: flex;
+  padding: 16px;
+  border-radius: 6px;
+  justify-content: start;
+  background-color: #eff6ff;
+}
+
+.banner-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.banner-text-title,
+.banner-text-message {
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.banner-text-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.banner-text-message {
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+/*colors*/
+.banner.info {
+  background-color: #eff6ff;
+}
+
+.banner.success {
+  background-color: #ecfdf5;
+}
+
+.banner.warning {
+  background-color: #fffbeb;
+}
+
+.banner.error {
+  background-color: #fef2f2;
+}
+
+.banner-icon.success {
+  color: #34d399;
+}
+
+.banner-icon.warning {
+  color: #fbbf24;
+}
+
+.banner-icon.error {
+  color: #f87171;
+}
+
+.banner-icon.info {
+  color: #60a5fa;
+}
+
+.banner-text-title.info {
+  color: #1e40af;
+}
+
+.banner-text-title.success {
+  color: #065f46;
+}
+
+.banner-text-title.warning,
+.banner-text-title.error {
+  color: #92400e;
+}
+
+.banner-text-message.info {
+  color: #1c51b9;
+}
+
+.banner-text-message.success {
+  color: #047857;
+}
+
+.banner-text-message.warning,
+.banner-text-message.error {
+  color: #b45309;
+}

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #352a3f;
+}
+
+.toasts,
+.banners {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+}
+
+.badges {
+  display: flex;
+  width: 1000px;
+  max-width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.tooltip-btn {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #291b24;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tooltip-btn:hover {
+  opacity: 0.8;
+}

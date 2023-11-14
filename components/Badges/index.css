@@ -1,0 +1,59 @@
+.badge {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 4px;
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+.shape-square {
+  border-radius: 4px;
+}
+
+.shape-pill {
+  border-radius: 12px;
+}
+
+/*colors*/
+
+.color-gray {
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+
+.color-red {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.color-yellow {
+  color: #92400e;
+  background-color: #fef3c7;
+}
+
+.color-green {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+
+.color-blue {
+  color: #1e40af;
+  background-color: #dbeafe;
+}
+
+.color-indigo {
+  color: #3730a3;
+  background-color: #e0e7ff;
+}
+
+.color-purple {
+  color: #5b21b6;
+  background-color: #ede9fe;
+}
+
+.color-pink {
+  color: #9d174d;
+  background-color: #fce7f3;
+}

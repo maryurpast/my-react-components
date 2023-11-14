@@ -1,0 +1,38 @@
+.card {
+  max-width: 400px;
+  padding: 80px 24px 32px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  text-align: center;
+  line-height: 1.5;
+  position: relative;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-title,
+.card-text {
+  margin: 0;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.card-icon {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
