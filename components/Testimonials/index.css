@@ -39,6 +39,11 @@
   font-weight: 700;
 }
 
+.testimonials-quotes-icon {
+  color: #5b74ca;
+  font-size: 48px;
+}
+
 @media (min-width: 1024px) {
   .testimonials {
     max-width: 1360px;

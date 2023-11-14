@@ -1,5 +1,6 @@
 import React from "react";
 import { IconContext } from "react-icons";
+import { RiFileUploadFill } from "react-icons/ri";
 
 export default function CardIcon({ icon, color = "#3F75FE", size = 50 }) {
   return icon ? (
@@ -9,10 +10,6 @@ export default function CardIcon({ icon, color = "#3F75FE", size = 50 }) {
       {icon}
     </IconContext.Provider>
   ) : (
-    <img
-      src={"./components/Cards/images/icon.svg"}
-      alt="Icon"
-      className="card-icon"
-    />
+    <RiFileUploadFill className="card-icon" />
   );
 }
