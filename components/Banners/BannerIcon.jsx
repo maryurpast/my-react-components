@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  FaCheckCircle,
-  FaExclamationTriangle,
-  FaTimesCircle,
-  FaInfoCircle,
-} from "react-icons/fa";
 import { BannerContext } from "./Banner";
 
 export default function BannerIcon() {
@@ -14,20 +8,22 @@ export default function BannerIcon() {
   const iconClass = `banner-icon ${status && status}`;
   switch (status) {
     case "info":
-      icon = <FaInfoCircle className={iconClass} />;
+      icon = "info";
       break;
     case "success":
-      icon = <FaCheckCircle className={iconClass} />;
+      icon = "check_circle";
       break;
     case "warning":
-      icon = <FaExclamationTriangle className={iconClass} />;
+      icon = "warning";
       break;
     case "error":
-      icon = <FaTimesCircle className={iconClass} />;
+      icon = "error";
       break;
-    default:
-      icon = <FaInfoCircle className={iconClass} />;
   }
 
-  return icon;
+  return (
+    <span className={"material-symbols-outlined" + " " + iconClass}>
+      {icon}
+    </span>
+  );
 }
